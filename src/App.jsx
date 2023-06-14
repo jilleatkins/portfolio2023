@@ -25,7 +25,6 @@ function App() {
         <Route path="/powerpong-league" element={<PowerPongLeague />} />
         <Route path="/nomnom" element={<NomNom />} />
         <Route path="/golden-basket" element={<GoldenBasket />} />
-
       </Routes>
     </Router>
   );

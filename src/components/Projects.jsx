@@ -11,13 +11,13 @@ const About = () => {
 
   const slides = [
     {
-      url: "public/assets/NomNom1.png",
+      url: "/NomNom1.png",
     },
     {
-      url: "public/assets/PowerPongLeague1.png",
+      url: "/PowerPongLeague1.png",
     },
     {
-      url: "public/assets/GoldenBasket2.png",
+      url: "/GoldenBasket2.png",
     },
   ];
 
@@ -107,8 +107,7 @@ const About = () => {
                 ></div>
                 {isHovered && (
                   <div className="flex absolute inset-0 items-center">
-                    {slides[currentIndex].url ===
-                      "public/assets/PowerPongLeague1.png" && (
+                    {slides[currentIndex].url === "/PowerPongLeague1.png" && (
                       <>
                         <div className="flex flex-col absolute top-10 left-10">
                           <h2 className="font-tertiary font-bold text-[#ffffffab] text-4xl">
@@ -127,8 +126,7 @@ const About = () => {
                         </div>
                       </>
                     )}
-                    {slides[currentIndex].url ===
-                      "public/assets/NomNom1.png" && (
+                    {slides[currentIndex].url === "/NomNom1.png" && (
                       <>
                         <div className="flex flex-col absolute top-10 left-10">
                           <h2 className="font-tertiary font-bold text-[#ffffffab] text-4xl">
@@ -147,8 +145,7 @@ const About = () => {
                         </div>
                       </>
                     )}
-                    {slides[currentIndex].url ===
-                      "public/assets/GoldenBasket2.png" && (
+                    {slides[currentIndex].url === "/GoldenBasket2.png" && (
                       <>
                         <div className="flex flex-col absolute top-10 left-10">
                           <h2 className="font-tertiary font-bold text-[#ffffffab] text-4xl">
