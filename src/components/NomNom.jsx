@@ -85,7 +85,7 @@ const NomNom = () => {
       <div className="flex justify-center pt-32 shadow-gray-300 drop-shadow-lg">
         <img
           className="h-auto max-w-[80%]"
-          src="./src/assets/NomNomCollage.jpg"
+          src="public/assets/NomNomCollage.jpg"
           alt="NomNom collage"
         ></img>
       </div>

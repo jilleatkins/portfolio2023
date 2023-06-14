@@ -66,7 +66,7 @@ const NomNom = () => {
       <div className="flex justify-center pt-32 shadow-gray-300 drop-shadow-lg">
         <img
           className="h-auto max-w-[50%]"
-          src="./src/assets/GoldenBasketCollage.jpg"
+          src="public/assets/GoldenBasketCollage.jpg"
           alt="Golden Basket collage"
         ></img>
       </div>
