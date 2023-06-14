@@ -35,7 +35,7 @@ const About = () => {
             className="font-primary text-primary text-8xl md:text-header mb-[-25px] subpixel-antialiased"
             data-AOS="fade-in"
             data-aos-duration="1500"
-            data-aos-delay="1200"
+            data-aos-delay="3000"
           >
             About
           </h1>
@@ -43,13 +43,13 @@ const About = () => {
             className="relative border-t border-primary w-[680px] ml-32 pb-14 subpixel-antialiased animate-top-line-grow origin-left ease-in"
             data-AOS="fade-in"
             data-aos-duration="1500"
-            data-aos-delay="1200"
+            data-aos-delay="3000"
           ></div>
           <h2
             className="font-primary text-primary text-3xl md:text-5xl mb-[40px]"
             data-AOS="fade-in"
             data-aos-duration="1500"
-            data-aos-delay="1200"
+            data-aos-delay="1500"
           >
             I'm a junior software developer. <br /> And I love it.
           </h2>
@@ -57,7 +57,7 @@ const About = () => {
             className="font-secondary text-primary"
             data-AOS="fade-in"
             data-aos-duration="1500"
-            data-aos-delay="1200"
+            data-aos-delay="3000"
           >
             <span className="font-semibold tracking-wider">
               My name is Jill.
@@ -105,16 +105,16 @@ const About = () => {
           </p>
           <a
             href="/skills"
-            className="flex justify-center p-8"
+            className="flex justify-center p-10"
             data-AOS="fade-in"
             data-aos-duration="2000"
           >
             <FaChevronDown
               data-AOS="fade-in"
               data-aos-duration="1500"
-              data-aos-delay="1200"
-              className="cursor-pointer fill-[#443235] hover:bg-secondary hover:rounded-full"
-              size={30}
+              data-aos-delay="3000"
+              className="cursor-pointer fill-[#443235] p-5 hover:bg-secondary hover:rounded-full"
+              size={70}
             />
           </a>
         </div>

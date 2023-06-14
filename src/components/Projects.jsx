@@ -84,17 +84,17 @@ const About = () => {
               className="font-primary text-secondary text-5xl"
               data-AOS="fade-in"
               data-aos-duration="1500"
-              data-aos-delay="1200"
+              data-aos-delay="2000"
             >
               A showcase of projects written in various languages for different
               applications.
             </h2>
             <div className="max-w-[1280px] h-[480px] w-full m-auto relative group">
               <div
-                className="w-full h-full -mt-56 border border-[#ffffff67] bg-center bg-no-repeat bg-darkhover"
+                className="w-full h-full -mt-56 rounded-2xl bg-center bg-no-repeat bg-darkhover"
                 data-AOS="fade-in"
                 data-aos-duration="2000"
-                data-aos-delay="1200"
+                data-aos-delay="2000"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
@@ -187,7 +187,7 @@ const About = () => {
                       style={{ color: "gray" }}
                       data-AOS="fade-in"
                       data-aos-duration="1500"
-                      data-aos-delay="1200"
+                      data-aos-delay="2000"
                     />
                   </div>
                 ))}

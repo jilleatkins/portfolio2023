@@ -41,44 +41,44 @@ const NavBar = () => {
           <a
             href="/"
             className={classNames(
-              "m-2 p-4 cursor-pointer hover:underline underline-offset-4",
+              "m-2 p-4 cursor-pointer hover:underline",
               getLinkColorClass()
             )}
           >
-            <p className="-rotate-90 font-secondary font-normal text-[12px] tracking-[.30em]">
+            <p className="-rotate-90 font-secondary font-medium text-[11px] tracking-[5px]">
               HOME
             </p>
           </a>
           <a
             href="/about"
             className={classNames(
-              "m-2 p-4 cursor-pointer hover:underline underline-offset-4",
+              "m-2 p-4 cursor-pointer hover:underline",
               getLinkColorClass()
             )}
           >
-            <p className="-rotate-90 font-secondary font-normal text-[12px] tracking-[.30em]">
+            <p className="-rotate-90 font-secondary font-medium text-[11px] tracking-[5px]">
               ABOUT
             </p>
           </a>
           <a
             href="/projects"
             className={classNames(
-              "m-2 p-4 cursor-pointer hover:underline underline-offset-4",
+              "m-2 p-4 cursor-pointer hover:underline",
               getLinkColorClass()
             )}
           >
-            <p className="-rotate-90 font-secondary font-normal text-[12px] tracking-[.30em]">
+            <p className="-rotate-90 font-secondary font-medium text-[11px] tracking-[5px]">
               PROJECTS
             </p>
           </a>
           <a
             href="/contact"
             className={classNames(
-              "m-2 p-4 cursor-pointer hover:underline underline-offset-4",
+              "m-2 p-4 cursor-pointer hover:underline",
               getLinkColorClass()
             )}
           >
-            <p className="-rotate-90 font-secondary font-normal text-[12px] tracking-[.30em]">
+            <p className="-rotate-90 font-secondary font-medium text-[11px] tracking-[5px]">
               CONTACT
             </p>
           </a>
