@@ -36,8 +36,8 @@ const NavBar = () => {
 
   return (
     <div>
-      <div className="md:block hidden fixed top-[5%] z-10">
-        <div className="flex flex-col space-y-36">
+      <div className="lg:block fixed top-[5%] z-10">
+        <div className="flex flex-col lg:space-y-16 xl:space-y-36">
           <a
             href="/"
             className={classNames(
@@ -45,7 +45,7 @@ const NavBar = () => {
               getLinkColorClass()
             )}
           >
-            <p className="-rotate-90 font-secondary font-medium text-[11px] tracking-[5px]">
+            <p className="-rotate-90 font-secondary lg:font-normal xl:font-medium lg:text-[9px] xl:text-[11px] tracking-[5px]">
               HOME
             </p>
           </a>
@@ -56,7 +56,7 @@ const NavBar = () => {
               getLinkColorClass()
             )}
           >
-            <p className="-rotate-90 font-secondary font-medium text-[11px] tracking-[5px]">
+            <p className="-rotate-90 font-secondary lg:font-normal xl:font-medium lg:text-[9px] xl:text-[11px] tracking-[5px]">
               ABOUT
             </p>
           </a>
@@ -67,7 +67,7 @@ const NavBar = () => {
               getLinkColorClass()
             )}
           >
-            <p className="-rotate-90 font-secondary font-medium text-[11px] tracking-[5px]">
+            <p className="-rotate-90 font-secondary lg:font-normal xl:font-medium lg:text-[9px] xl:text-[11px] tracking-[5px]">
               PROJECTS
             </p>
           </a>
@@ -78,20 +78,20 @@ const NavBar = () => {
               getLinkColorClass()
             )}
           >
-            <p className="-rotate-90 font-secondary font-medium text-[11px] tracking-[5px]">
+            <p className="-rotate-90 font-secondary lg:font-normal xl:font-medium lg:text-[9px] xl:text-[11px] tracking-[5px]">
               CONTACT
             </p>
           </a>
           <div
             className={classNames(
-              "ml-16 border-l h-[200px] tracking-[.30em]",
+              "ml-16 border-l lg:h-[100px] xl:h-[200px] tracking-[.30em]",
               getBorderClass()
             )}
           ></div>
         </div>
         <p
           className={classNames(
-            "-rotate-90 mt-32 mr-2 font-secondary font-light text-[10px] tracking-[.30em]",
+            "-rotate-90 lg:mt-20 xl:mt-32 mr-2 font-secondary lg:font-extralight xl:font-light lg:text-[9px] xl:text-[10px] tracking-[.30em]",
             getLastParagraphClass()
           )}
         >

@@ -11,13 +11,13 @@ const About = () => {
 
   const slides = [
     {
-      url: "/NomNom1.png",
+      url: "public/assets/NomNom1.png",
     },
     {
-      url: "/PowerPongLeague1.png",
+      url: "public/assets/PowerPongLeague1.png",
     },
     {
-      url: "/GoldenBasket2.png",
+      url: "public/assets/GoldenBasket2.png",
     },
   ];
 
@@ -48,7 +48,7 @@ const About = () => {
         data-aos-easing="ease-in-out"
         data-aos-duration="1000"
         data-aos-delay="200"
-        className="h-screen w-screen bg-[#1A1818]"
+        className="min-h-screen w-screen bg-[#1A1818]"
       >
         <div
           data-AOS="fade-in"
@@ -62,9 +62,9 @@ const About = () => {
           data-aos-delay="1200"
           className="absolute top-16 right-16 border-t border-secondary w-[400px] subpixel-antialiased animate-top-line-grow animation-delay-1200 origin-right ease-in"
         ></div>
-        <div className="max-w-[1040px] ml-[8%] md:pl-20 p-4 pt-64 pb-10">
+        <div className="max-w-[1040px] ml-[8%] md:pl-20 p-4 lg:pt-48 xl:pt-64 pb-10">
           <h1
-            className="font-primary text-secondary text-subheader mb-[-40px] pt-24 subpixel-antialiased"
+            className="font-primary text-secondary  lg:text-[8rem] xl:text-subheader mb-[-40px] xl:pt-24 subpixel-antialiased"
             data-AOS="fade-in"
             data-aos-duration="1500"
             data-aos-delay="1200"
@@ -72,13 +72,13 @@ const About = () => {
             PROJECTS
           </h1>
           <div
-            className="relative border-t border-secondary w-[770px] ml-32 pb-14 subpixel-antialiased animate-top-line-grow origin-left ease-in"
+            className="relative border-t border-secondary w-[770px] ml-32 xl:pb-14 subpixel-antialiased animate-top-line-grow origin-left ease-in"
             data-AOS="fade-in"
             data-aos-duration="1500"
             data-aos-delay="1200"
           ></div>
         </div>
-        <div className="max-w-[1920px] ml-[10%] md:pl-20 p-4 pt-54 pb-10">
+        <div className="max-w-[1920px] ml-[10%] md:pl-20 p-4 xl:pt-54 pb-10">
           <div className="grid grid-cols-2 gap-20">
             <h2
               className="font-primary text-secondary text-5xl"
@@ -89,7 +89,7 @@ const About = () => {
               A showcase of projects written in various languages for different
               applications.
             </h2>
-            <div className="max-w-[1280px] h-[480px] w-full m-auto relative group">
+            {/* <div className="max-w-[1280px] h-[480px] w-full m-auto relative group">
               <div
                 className="w-full h-full -mt-56 rounded-2xl bg-center bg-no-repeat bg-darkhover"
                 data-AOS="fade-in"
@@ -189,7 +189,7 @@ const About = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ const About = () => {
         data-aos-easing="ease-in-out"
         data-aos-duration="1000"
         data-aos-delay="200"
-        className="h-screen w-screen bg-[#E6DDDE]"
+        className="w-screen min-h-screen bg-[#E6DDDE]"
       >
         <div
           data-AOS="fade-in"
@@ -30,23 +30,23 @@ const About = () => {
           data-aos-delay="1200"
           className="absolute top-16 right-16 border-t border-primary w-[400px] subpixel-antialiased animate-top-line-grow animation-delay-1200 origin-right ease-in"
         ></div>
-        <div className="max-w-[1040px] ml-[10%] md:pl-20 p-4 pt-64 pb-10">
+        <div className="max-w-[1040px] ml-[10%] md:pl-20 p-4 lg:pt-40 xl:pt-64 pb-10">
           <h1
-            className="font-primary text-primary text-8xl md:text-header mb-[-25px] subpixel-antialiased"
+            className="font-primary text-primary lg:text-[12rem] xl:text-header lg:mb-[-55px] xl:mb-[-25px] subpixel-antialiased"
             data-AOS="fade-in"
             data-aos-duration="1500"
-            data-aos-delay="3000"
+            data-aos-delay="1500"
           >
             About
           </h1>
           <div
-            className="relative border-t border-primary w-[680px] ml-32 pb-14 subpixel-antialiased animate-top-line-grow origin-left ease-in"
+            className="relative border-t border-primary lg:w-[480px] xl:w-[680px] ml-32 pb-14 subpixel-antialiased animate-top-line-grow origin-left ease-in"
             data-AOS="fade-in"
             data-aos-duration="1500"
-            data-aos-delay="3000"
+            data-aos-delay="1500"
           ></div>
           <h2
-            className="font-primary text-primary text-3xl md:text-5xl mb-[40px]"
+            className="font-primary text-primary lg:text-4xl xl:text-5xl mb-[40px]"
             data-AOS="fade-in"
             data-aos-duration="1500"
             data-aos-delay="1500"
@@ -54,12 +54,12 @@ const About = () => {
             I'm a junior software developer. <br /> And I love it.
           </h2>
           <p
-            className="font-secondary text-primary"
+            className="font-secondary lg:font-light xl:font-normal lg:text-[14px] xl:text-primary lg:max-w-[640px] xl:max-w-[1040px]"
             data-AOS="fade-in"
             data-aos-duration="1500"
             data-aos-delay="3000"
           >
-            <span className="font-semibold tracking-wider">
+            <span className="lg:font-medium xl:font-semibold tracking-wider">
               My name is Jill.
             </span>{" "}
             I'm an Australian living in Glasgow, Scotland. I've come from 10
@@ -70,7 +70,7 @@ const About = () => {
             to be a scientist.
             <br />
             <br />
-            <span className="font-semibold tracking-wider">
+            <span className="lg:font-medium xl:font-semibold tracking-wider">
               The one constant I kept going back to was computers.
             </span>{" "}
             I used to customise my <span className="italic">mySpace</span>{" "}
@@ -85,7 +85,7 @@ const About = () => {
             <br />
             <br />
             In November 2022, I was accepted to study{" "}
-            <span className="font-semibold tracking-wider">
+            <span className="lg:font-medium xl:font-semibold tracking-wider">
               Professional Software Development
             </span>{" "}
             at CodeClan in Glasgow and it was fantastic. I was able to hone my
@@ -99,9 +99,14 @@ const About = () => {
             <span className="italic">wild</span> ride.
             <br />
             <br />
-            <span className="font-semibold tracking-wider">Read on</span> to
-            find out more about what I learned during the course and what I've
-            been working on since.
+            <a
+              href="/skills"
+              className="lg:font-medium xl:font-semibold tracking-wider"
+            >
+              Read on
+            </a>{" "}
+            to find out more about what I learned during the course and what
+            I've been working on since.
           </p>
           <a
             href="/skills"
