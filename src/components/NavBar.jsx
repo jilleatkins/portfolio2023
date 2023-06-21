@@ -13,13 +13,21 @@ const NavBar = () => {
   const getLinkColorClass = () => {
     if (activeRoute === "/" || activeRoute === "/about") {
       return "text-primary";
-    } else if (activeRoute === "/projects" || activeRoute === "/contact") {
+    } else if (
+      activeRoute === "/projects" ||
+      activeRoute === "/contact" ||
+      activeRoute === "/project-carousel"
+    ) {
       return "text-secondary";
     }
   };
 
   const getBorderClass = () => {
-    if (activeRoute === "/projects" || activeRoute === "/contact") {
+    if (
+      activeRoute === "/projects" ||
+      activeRoute === "/contact" ||
+      activeRoute === "/project-carousel"
+    ) {
       return "border-secondary";
     } else {
       return "border-primary";
@@ -27,7 +35,11 @@ const NavBar = () => {
   };
 
   const getLastParagraphClass = () => {
-    if (activeRoute === "/projects" || activeRoute === "/contact") {
+    if (
+      activeRoute === "/projects" ||
+      activeRoute === "/contact" ||
+      activeRoute === "/project-carousel"
+    ) {
       return "text-secondary";
     } else {
       return "text-primary";

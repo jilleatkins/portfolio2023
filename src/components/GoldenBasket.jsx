@@ -17,7 +17,7 @@ const NomNom = () => {
         data-aos-delay="200"
       >
         <h1
-          className="flex justify-center items-center font-primary text-[#E6DDDE] text-[12rem] mb-[-40px] mt-[35%] subpixel-antialiased"
+          className="flex justify-center items-center font-primary leading-tight text-[#E6DDDE] lg:text-[9rem] xl:text-[14rem] mb-[-40px] lg:mt-[5%] xl:mt-[33%] subpixel-antialiased"
           data-aos="slide-up"
           data-aos-duration="750"
           data-aos-offset="100"
@@ -26,7 +26,7 @@ const NomNom = () => {
           golden basket
         </h1>
       </div>
-      <div className="flex justify-center items-center max-w-[40%] ml-[30%] mr-[14%] md:pl-20 mt-64 bg-[#E6DDDE]">
+      <div className="flex justify-center items-center lg:max-w-[60%] xl:max-w-[40%] lg:ml-[25%] xl:ml-[30%] mr-[14%] md:pl-20 lg:mt-52 xl:mt-64 bg-[#E6DDDE]">
         <h2 className="font-primary text-primary text-5xl leading-tight subpixel-antialiased">
           An enterprise inventory management system.
         </h2>
@@ -63,15 +63,15 @@ const NomNom = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-center pt-32 shadow-gray-300 drop-shadow-lg">
+      <div className="flex justify-center lg:pt-24 xl:pt-32 shadow-gray-300 drop-shadow-lg">
         <img
-          className="h-auto max-w-[50%]"
+          className="h-auto max-w-[60%]"
           src="public/assets/GoldenBasketCollage.jpg"
           alt="Golden Basket collage"
         ></img>
       </div>
-      <div className="flex justify-center items-center max-w-[50%] ml-[25%] mr-[14%] md:pl-20 bg-[#E6DDDE]">
-        <h3 className="flex justify-start items-start p-24 font-tertiary text-primary leading-loose">
+      <div className="flex justify-center items-center lg:max-w-[70%] xl:max-w-[50%] lg:ml-[12%] xl:ml-[23%] xl:mr-[14%] md:pl-20 bg-[#E6DDDE]">
+        <h3 className="flex justify-start items-start p-24 font-tertiary text-primary lg:text-[14px] xl:text-[16px] leading-loose">
           Golden Basket is a robust web application developed using Python and
           SQL, designed to replicate an enterprise-level inventory management
           system. This project showcases the seamless integration of a powerful
@@ -99,7 +99,7 @@ const NomNom = () => {
       <div className="flex justify-center items-center max-w-[40%] ml-[30%] mr-[14%] md:pl-20 pb-10 bg-[#E6DDDE]">
         <a
           className="font-tertiary text-primary text-[14px] font-semibold tracking-wider pb-4 pt-10 leading-relaxed cursor-pointer"
-          href="/projects"
+          href="/project-carousel"
         >
           BACK TO PROJECTS
         </a>

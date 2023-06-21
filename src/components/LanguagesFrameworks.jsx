@@ -22,7 +22,7 @@ const About = () => {
     <div id="about" className="min-h-screen w-screen bg-[#E6DDDE]">
       <div className="absolute top-16 right-16 border-r border-primary h-[540px] subpixel-antialiased animate-side-line-grow origin-top ease-in"></div>
       <div className="absolute top-16 right-16 border-t border-primary w-[400px] subpixel-antialiased animate-top-line-grow origin-right ease-in"></div>
-      <div className="max-w-[1040px] ml-[10%] md:pl-20 p-4 pt-64 pb-10">
+      <div className="max-w-[1040px] ml-[10%] md:pl-20 p-4 lg:pt-44 xl:pt-64 xl:pb-10">
         <h1
           className="font-primary text-primary text-5xl subpixel-antialiased"
           data-AOS="fade-in"
@@ -158,7 +158,7 @@ const About = () => {
       </div>
       <a
         href="/skills-cont"
-        className="flex justify-center p-24 animate-pulse"
+        className="flex justify-center lg:pt-12 lg:pb-20 xl:p-24 animate-pulse"
         data-AOS="fade-in"
         data-aos-duration="2000"
       >

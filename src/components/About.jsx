@@ -57,7 +57,7 @@ const About = () => {
             className="font-secondary lg:font-light xl:font-normal lg:text-[14px] xl:text-primary lg:max-w-[640px] xl:max-w-[1040px]"
             data-AOS="fade-in"
             data-aos-duration="1500"
-            data-aos-delay="3000"
+            data-aos-delay="2500"
           >
             <span className="lg:font-medium xl:font-semibold tracking-wider">
               My name is Jill.

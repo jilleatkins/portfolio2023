@@ -17,7 +17,7 @@ const NomNom = () => {
         data-aos-delay="200"
       >
         <h1
-          className="flex justify-center items-center font-primary text-[#E6DDDE] text-[20rem] mb-[-40px] mt-[25%] subpixel-antialiased"
+          className="flex justify-center items-center font-primary text-[#E6DDDE] lg:text-[12rem] xl:text-[20rem] mb-[-40px] lg:mt-[15%] xl:mt-[25%] subpixel-antialiased"
           data-aos="slide-up"
           data-aos-duration="750"
           data-aos-offset="100"
@@ -85,7 +85,7 @@ const NomNom = () => {
       <div className="flex justify-center pt-32 shadow-gray-300 drop-shadow-lg">
         <img
           className="h-auto max-w-[80%]"
-          src="/NomNomCollage.jpg"
+          src="public/assets/NomNomCollage.jpg"
           alt="NomNom collage"
         ></img>
       </div>
@@ -104,7 +104,7 @@ const NomNom = () => {
       <div className="flex justify-center items-center max-w-[40%] ml-[30%] mr-[14%] md:pl-20 pb-10 bg-[#E6DDDE]">
         <a
           className="font-tertiary text-primary text-[14px] font-semibold tracking-wider pb-4 pt-10 leading-relaxed cursor-pointer"
-          href="/projects"
+          href="/project-carousel"
         >
           BACK TO PROJECTS
         </a>

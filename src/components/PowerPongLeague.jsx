@@ -8,16 +8,16 @@ const NomNom = () => {
   }, []);
 
   return (
-    <div id="nomnom" className="h-full w-full bg-[#E6DDDE]">
+    <div id="powerpong-league" className="h-full w-full bg-[#E6DDDE]">
       <div
-        className="max-w-[100%] h-[98%] ml-[14%] mr-[14%] md:pl-20 p-4 pb-24 pt-72 bg-[#1A1818] opacity-100 transform translate-y-[-100%] transition-all duration-1000 ease-in"
+        className="max-w-[71%] h-[98%] ml-[14%] mr-[14%] md:pl-20 p-4 pb-24 pt-72 bg-[#1A1818] opacity-100 transform translate-y-[-100%] transition-all duration-1000 ease-in"
         data-aos="slide-down"
         data-aos-duration="1000"
         data-aos-offset="100"
         data-aos-delay="200"
       >
         <h1
-          className="max-w-[94%] flex justify-center items-center font-primary text-[#E6DDDE] text-[12rem] mb-[-40px] mt-[19%] subpixel-antialiased leading-tight"
+          className="flex justify-center items-center font-primary leading-tight text-[#E6DDDE] lg:text-[8rem] xl:text-[14rem] mb-[-40px] lg:mt-[5%] xl:mt-[18%] subpixel-antialiased"
           data-aos="slide-up"
           data-aos-duration="750"
           data-aos-offset="100"
@@ -26,8 +26,8 @@ const NomNom = () => {
           powerpong league
         </h1>
       </div>
-      <div className="flex justify-center items-center max-w-[40%] ml-[30%] mr-[14%] md:pl-20 mt-56 bg-[#E6DDDE]">
-        <h2 className="font-primary text-primary text-5xl leading-tight subpixel-antialiased">
+      <div className="flex justify-center items-center lg:max-w-[50%] xl:max-w-[40%] lg:ml-[24%] xl:ml-[30%] mr-[14%] md:pl-20 mt-56 bg-[#E6DDDE]">
+        <h2 className="font-primary text-primary lg:text-4xl xl:text-5xl lg:leading-normal xl:leading-tight subpixel-antialiased">
           Serve up victory with this dynamic ping pong score tracking website.
           Keep tabs on scores, game history, and players effortlessly. Our app
           reflects the triumph of winners and ensures you never miss a serve.
@@ -79,7 +79,7 @@ const NomNom = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-center pt-20">
+      <div className="flex justify-center lg:pl-10 xl:pl-0 pt-20">
         <iframe
           className="w-[1240px] h-[700px] aspect-w-16 aspect-h-16/9 shadow-gray-300 drop-shadow-lg"
           src="https://youtube.com/embed/RfwVVUPGNpM"
@@ -89,7 +89,7 @@ const NomNom = () => {
         />
       </div>
 
-      <div className="flex justify-center items-center max-w-[50%] ml-[25%] mr-[14%] md:pl-20 bg-[#E6DDDE]">
+      <div className="flex justify-center items-center lg:max-w-[65%] xl:max-w-[50%] lg:ml-[15%] xl:ml-[25%] mr-[14%] md:pl-20 bg-[#E6DDDE]">
         <h3 className="flex justify-start items-start p-24 font-tertiary text-primary leading-loose">
           PowerPong League is a captivating web application developed using
           React and MongoDB as part of our group project for the CodeClan
@@ -116,7 +116,7 @@ const NomNom = () => {
       <div className="flex justify-center items-center max-w-[40%] ml-[30%] mr-[14%] md:pl-20 pb-10 bg-[#E6DDDE]">
         <a
           className="font-tertiary text-primary text-[14px] font-semibold tracking-wider pb-4 pt-10 leading-relaxed cursor-pointer"
-          href="/projects"
+          href="/project-carousel"
         >
           BACK TO PROJECTS
         </a>

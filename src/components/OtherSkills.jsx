@@ -14,7 +14,7 @@ const About = () => {
       <div className="absolute top-16 right-16 border-t border-primary w-[400px] subpixel-antialiased animate-top-line-grow origin-right ease-in"></div>
       <a
         href="/skills"
-        className="flex relative justify-center pt-24 animate-pulse"
+        className="flex relative justify-center lg:pt-20 xl:pt-24 animate-pulse"
         data-AOS="fade-in"
         data-aos-duration="2000"
       >

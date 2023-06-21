@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import PowerPongLeague from "./components/PowerPongLeague";
 import NomNom from "./components/NomNom";
 import GoldenBasket from "./components/GoldenBasket";
+import ProjectCarousel from "./components/ProjectCarousel";
 
 function App() {
   const isMobileDevice = useMediaQuery({
@@ -47,6 +48,7 @@ function App() {
         <Route path="/powerpong-league" element={<PowerPongLeague />} />
         <Route path="/nomnom" element={<NomNom />} />
         <Route path="/golden-basket" element={<GoldenBasket />} />
+        <Route path="/project-carousel" element={<ProjectCarousel />} />
       </Routes>
     </Router>
   );

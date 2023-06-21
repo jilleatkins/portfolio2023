@@ -60,9 +60,9 @@ export const theme = {
       "top-line-grow": "hGrow 1.1s linear",
     },
     backgroundImage: {
-      nomnom: "url('../assets/NomNom1.png')",
-      powerpong: "url('./assets/PowerPongLeague.png')",
-      goldenbasket: "url('./assets/GoldenBasket2.png')",
+      nomnom: "url('public/assets/NomNom1.png')",
+      powerpong: "url('public/assets/PowerPongLeague1.png')",
+      goldenbasket: "url('public/assets/GoldenBasket2.png')",
     },
   },
   screens: {
