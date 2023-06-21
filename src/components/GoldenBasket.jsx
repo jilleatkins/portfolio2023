@@ -8,7 +8,7 @@ const NomNom = () => {
   }, []);
 
   return (
-    <div id="nomnom" className="h-full w-full bg-[#E6DDDE]">
+    <div id="golden-basket" className="h-full w-full bg-[#E6DDDE]">
       <div
         className="max-w-[71%] h-[98%] ml-[14%] mr-[14%] md:pl-20 p-4 pb-24 pt-72 bg-[#1A1818] opacity-100 transform translate-y-[-100%] transition-all duration-1000 ease-in"
         data-aos="slide-down"
@@ -66,7 +66,7 @@ const NomNom = () => {
       <div className="flex justify-center lg:pt-24 xl:pt-32 shadow-gray-300 drop-shadow-lg">
         <img
           className="h-auto max-w-[60%]"
-          src="public/assets/GoldenBasketCollage.jpg"
+          src="/assets/GoldenBasketCollage.jpg"
           alt="Golden Basket collage"
         ></img>
       </div>

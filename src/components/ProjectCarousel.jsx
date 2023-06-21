@@ -11,13 +11,13 @@ const ProjectCarousel = () => {
 
   const slides = [
     {
-      url: "public/assets/NomNom1.png",
+      url: "/assets/NomNom1.png",
     },
     {
-      url: "public/assets/PowerPongLeague1.png",
+      url: "/assets/PowerPongLeague1.png",
     },
     {
-      url: "public/assets/GoldenBasket2.png",
+      url: "/assets/GoldenBasket2.png",
     },
   ];
 
@@ -60,8 +60,7 @@ const ProjectCarousel = () => {
           ></div>
           {isHovered && (
             <div className="flex absolute inset-0 items-center">
-              {slides[currentIndex].url ===
-                "public/assets/PowerPongLeague1.png" && (
+              {slides[currentIndex].url === "/assets/PowerPongLeague1.png" && (
                 <>
                   <div className="flex flex-col absolute top-10 left-10">
                     <h2 className="font-tertiary font-bold text-[#ffffffab] text-4xl">
@@ -80,7 +79,7 @@ const ProjectCarousel = () => {
                   </div>
                 </>
               )}
-              {slides[currentIndex].url === "public/assets/NomNom1.png" && (
+              {slides[currentIndex].url === "/assets/NomNom1.png" && (
                 <>
                   <div className="flex flex-col absolute top-10 left-10">
                     <h2 className="font-tertiary font-bold text-[#ffffffab] text-4xl">
@@ -99,8 +98,7 @@ const ProjectCarousel = () => {
                   </div>
                 </>
               )}
-              {slides[currentIndex].url ===
-                "public/assets/GoldenBasket2.png" && (
+              {slides[currentIndex].url === "/assets/GoldenBasket2.png" && (
                 <>
                   <div className="flex flex-col absolute top-10 left-10">
                     <h2 className="font-tertiary font-bold text-[#ffffffab] text-4xl">
